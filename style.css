@@ -3,7 +3,7 @@
     display: flex;
     list-style: none;
     padding: 10px 20px;
-    a {
+ } a {
       position: relative;
       padding: 0.6em 2em;
       font-size: 25px;
@@ -20,8 +20,8 @@
       color: #EA178C;
       bottom: 0px;
       height: 100%;
-      
-      &:after {
+    }
+      .active:after {
       content: '';
       position: absolute;
       bottom: 0;
@@ -31,10 +31,10 @@
       background-color: #EA178C;
       animation: appear 2s;
       }
-    }
-  }
+    
   
-  // *************** Presentation ******************** //
+  
+  /* Presentation */
   @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap");
   
   @keyframes appear {
