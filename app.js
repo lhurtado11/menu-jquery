@@ -6,6 +6,11 @@ $(document).ready(function() {
       },
      function() {
       $(this).css("color","");
-      });
-
+      }
+    );
+    //detecta click sobre el elemento, adiciona clase active al elemento
+    $('a').on('click', function() {
+     $(this).addClass('active')
+    });
+    
 })
